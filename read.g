@@ -6,3 +6,4 @@
 ReadPackage( "FunctorCategories", "gap/FunctorCategories.gi");
 ReadPackage( "FunctorCategories", "gap/HomStructure.gi");
 ReadPackage( "FunctorCategories", "gap/Functors.gi");
+ReadPackage( "FunctorCategories", "gap/ExternalHom.gi");
