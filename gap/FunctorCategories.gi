@@ -224,6 +224,28 @@ InstallMethod( ValuesOnAllGeneratingMorphisms,
     
 end );
 
+##
+InstallMethod( EmbeddingOfLargestTrivialSubrepresentation,
+        "for a Hom-category object",
+        [ IsCapCategoryObjectInHomCategory ],
+        
+  function( G )
+    
+    
+    
+end );
+
+##
+InstallMethod( LargestTrivialSubrepresentation,
+        "for a Hom-category object",
+        [ IsCapCategoryObjectInHomCategory ],
+        
+  function( G )
+    
+    
+    
+end );
+
 ####################################
 #
 # methods for operations:

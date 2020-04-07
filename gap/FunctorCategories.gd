@@ -86,6 +86,20 @@ DeclareAttribute( "Range",
 DeclareAttribute( "UnderlyingCapTwoCategoryCell",
         IsObject );
 
+# @Description
+#  Return the embedding of the larget trivial subrepresentation of <A>G</A>.
+# @Arguments G
+# @Returns IsCapCategoryMorphismInHomCategory
+DeclareAttribute( "EmbeddingOfLargestTrivialSubrepresentation",
+        IsCapCategoryObjectInHomCategory );
+
+# @Description
+#  Return the larget trivial subrepresentation of <A>G</A>.
+# @Arguments G
+# @Returns IsCapCategoryObjectInHomCategory
+DeclareAttribute( "LargestTrivialSubrepresentation",
+        IsCapCategoryObjectInHomCategory );
+
 ####################################
 #
 #! @Section Operations
